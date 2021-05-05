@@ -13,5 +13,3 @@ Description:    "The reason for this medication administration must be documente
 * obeys exactly-one-reason-required
 * reasonCode and reasonReference MS
 
-
-
