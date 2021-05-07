@@ -1,0 +1,292 @@
+[
+  {
+    "path": "Aliases",
+    "name": "Aliases",
+    "type": "category",
+    "children": [
+      {
+        "path": "Profiles/External-alisases.fsh",
+        "name": "External Aliases",
+        "type": "file"
+      },
+      {
+        "path": "Profiles/FHIR-aliases",
+        "name": "FHIR Aliases",
+        "type": "file"
+      },
+      {
+        "path": "Profiles/US-Core-aliases",
+        "name": "Us Core Aliases",
+        "type": "file"
+      }
+    ]
+  },
+  {
+    "path": "Code%20Systems",
+    "name": "Code Systems",
+    "type": "category",
+    "children": [
+      {
+        "path": "Code%20Systems/Local-codes.fsh",
+        "name": "Local Codes",
+        "type": "file"
+      }
+    ]
+  },
+  {
+    "path": "Extensions",
+    "name": "Extensions",
+    "type": "category",
+    "children": [
+      {
+        "path": "Extensions/Complex-extension.fsh",
+        "name": "Complex Extension",
+        "type": "file"
+      },
+      {
+        "path": "Extensions/Simple-extension.fsh",
+        "name": "Simple Extension",
+        "type": "file"
+      }
+    ]
+  },
+  {
+    "path": "Instances",
+    "name": "Instances",
+    "type": "category",
+    "children": [
+      {
+        "path": "Instances/Instance-example.fsh",
+        "name": "Instance Example",
+        "type": "file"
+      }
+    ]
+  },
+  {
+    "path": "Invariants",
+    "name": "Invariants",
+    "type": "category",
+    "children": [
+      {
+        "path": "Invariants/Date-format-regex.fsh",
+        "name": "Date Format Regex",
+        "type": "file"
+      },
+      {
+        "path": "Invariants/Require-element-OR.fsh",
+        "name": "Require Element OR",
+        "type": "file"
+      },
+      {
+        "path": "Invariants/Require-element-XOR.fsh",
+        "name": "Require Element XOR",
+        "type": "file"
+      },
+      {
+        "path": "Invariants/String-length-invariant.fsh",
+        "name": "String Length Invariant",
+        "type": "file"
+      }
+    ]
+  },
+  {
+    "path": "Mappings",
+    "name": "Mappings",
+    "type": "category",
+    "children": [
+      {
+        "path": "Mappingss/mapping-example.fsh",
+        "name": "Mapping Examples",
+        "type": "file"
+      }
+    ]
+  },
+  {
+    "path": "Paths",
+    "name": "Paths",
+    "type": "category",
+    "children": [
+      {
+        "path": "Paths/Array-element-paths.fsh",
+        "name": "Array Element Paths",
+        "type": "file"
+      },
+      {
+        "path": "Paths/Caret-paths.fsh",
+        "name": "Caret Paths",
+        "type": "file"
+      },
+      {
+        "path": "Paths/Extension-paths.fsh",
+        "name": "extension Paths",
+        "type": "file"
+      },
+      {
+        "path": "Paths/Reference-paths.fsh",
+        "name": "Reference Paths",
+        "type": "file"
+      },
+      {
+        "path": "Paths/Sliced-array-paths.fsh",
+        "name": "Sliced Array Paths",
+        "type": "file"
+      },
+      {
+        "path": "Paths/Soft-indexing-paths.fsh",
+        "name": "Soft Indexing Paths",
+        "type": "file"
+      }
+    ]
+  },
+  {
+    "path": "Profiles",
+    "name": "Profiles",
+    "type": "category",
+    "children": [
+      {
+        "path": "Profiles/Profile-example.fsh",
+        "name": "Profile Example",
+        "type": "file"
+      }
+    ]
+  },
+  {
+    "path": "Rule%20Sets",
+    "name": "Rule Sets",
+    "type": "category",
+    "children": [
+      {
+        "path": "Rule%20Sets/Paramaterized",
+        "name": "Parameterized",
+        "type": "category",
+        "children": [
+          {
+            "path": "Rule%20Sets/Paramaterized/Create-observation-component.fsh",
+            "name": "Create Observation Component",
+            "type": "file"
+          },
+          {
+            "path": "Rule%20Sets/Paramaterized/Set-extension-context.fsh",
+            "name": "Set Extension Context",
+            "type": "file"
+          },
+          {
+            "path": "Rule%20Sets/Paramaterized/set-short-and-definition.fsh",
+            "name": "Set Short and Defintiion",
+            "type": "file"
+          },
+          {
+            "path": "Rule%20Sets/Paramaterized/Using-soft-indexing.fsh",
+            "name": "Using Soft indexing",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "path": "Rule%20Sets/Simple",
+        "name": "Simple",
+        "type": "category",
+        "children": [
+          {
+            "path": "Rule%20Sets/Simple/Shared-radiotherapy-rules.fsh",
+            "name": "Shared Radiotherapy Rules",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "path": "Rule%20Sets/Slicing",
+        "name": "Slicing",
+        "type": "category",
+        "children": [
+          {
+            "path": "Rule%20Sets/Slicing/Bundle-slice-on-profile.fsh",
+            "name": "Bundle Slice on Profile",
+            "type": "file"
+          },
+          {
+            "path": "Rule%20Sets/Slicing/Category-slicing.fsh",
+            "name": "Category Slicing",
+            "type": "file"
+          },
+          {
+            "path": "Rule%20Sets/Slicing/Observation-component-slicing.fsh",
+            "name": "Observation Component Slicing",
+            "type": "file"
+          },
+          {
+            "path": "Rule%20Sets/Slicing/Observation-has-member-slice-on-code.fsh",
+            "name": "Observation hasMember Slice on Code",
+            "type": "file"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path": "Rules",
+    "name": "Rules",
+    "type": "category",
+    "children": [
+      {
+        "path": "Rules/Must%20Support",
+        "name": "Parameterized",
+        "type": "category",
+        "children": [
+          {
+            "path": "Rules/Must%20Support/MS-on-selected-reference.fsh",
+            "name": "MS on Selected Reference",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "path": "Rules/Must%20Support/README.md",
+        "name": "README",
+        "type": "file"
+      }
+    ]
+  },
+  {
+    "path": "Value%20Sets",
+    "name": "Value Sets",
+    "type": "category",
+    "children": [
+      {
+        "path": "Value%20Sets/Exclude-single-codes.fsh",
+        "name": "Exclude Single Codes",
+        "type": "file"
+      },
+      {
+        "path": "Value%20Sets/Include-entire-code-system.fsh",
+        "name": "Include Entire Code System",
+        "type": "file"
+      },
+      {
+        "path": "Value%20Sets/Include-entire-value-set.fsh",
+        "name": "Include Entire Value Set",
+        "type": "file"
+      },
+      {
+        "path": "Value%20Sets/Include-rules.fsh",
+        "name": "Include Rules",
+        "type": "file"
+      },
+      {
+        "path": "Value%20Sets/Include-single-codes.fsh",
+        "name": "Include Single Codes",
+        "type": "file"
+      },
+      {
+        "path": "Value%20Sets/LOINC-filtering.fsh",
+        "name": "LOINC Filtering",
+        "type": "file"
+      },
+      {
+        "path": "Value%20Sets/SNOMED-filtering.fsh",
+        "name": "SNOMED Filtering",
+        "type": "file"
+      }
+    ]
+  }
+]
