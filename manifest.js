@@ -9,7 +9,7 @@ const manifestPath = path.join(__dirname, 'index.json');
  * Reads the first two lines of a FSH file, returning the name and description properties
  */
 async function getMetadata(filePath, fileName) {
-  let metaData = {name: fileName};
+  let metaData = {name: fileName.replace('.fsh', '')};
   let lineReader = lineReaderComponent.createInterface({
     input: fs.createReadStream(filePath)
   });
