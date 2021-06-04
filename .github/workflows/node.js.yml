@@ -27,7 +27,7 @@ jobs:
     - run: git config --local user.name  ${{ github.actor }}
     - run: git add --all
     - run: git commit -m "Automatic manifest update"
-    -name: 
+    - name: 
       uses: ad-m/github-push-action@main
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
