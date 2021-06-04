@@ -65,9 +65,6 @@ async function getChildren(baseDirName) {
       workingArray[index].children = [];
       const children = await getChildren(filePath);
       workingArray[index].children = children;
-      if (children.length = 0) {
-        workingArray.splice(index, 1);
-      }
     }
   }
   return workingArray;
