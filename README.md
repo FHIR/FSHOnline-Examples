@@ -6,14 +6,14 @@ The goal of these examples is to demonstrate various aspects of FHIR Shorthand, 
 ## Example Submissions
 Examples should be submitted by way of pull requests on this repository. Submissions will then be reviewed and merged into the `main` branch. To create a pull request, follow the following steps:
 
-1.  If you don’t have Git installed on your machine, instructions to do so can be found at [this link](https://git-scm.com/downloads).
-2. Clone the FSHOnline-Examples repository onto your machine.
+1. If you don’t have Git installed on your machine, instructions to do so can be found at [this link](https://git-scm.com/downloads).
+2. Fork the FSHOnline-Examples repository, then clone your forked repository onto your machine.
 3. Open the `FSHOnline-Examples` directory that has been created on your machine and create a new branch to upload changes from.
 4. Create any additions within the `Examples` subdirectory of the repository. FSH files can be directly added anywhere within the `Examples` subdirectory, and new example categories can be created by simply creating a subdirectory within the `Examples` folder. 
 5. After completing all changes, stage and commit your work.
 6. Push your commit to Github with the following command: `git push —set-upstream origin <your-branch-name>`
 7. Navigate to the FSHOnline-Examples repository on Github and then click on “Pull requests”.
-8. You should be prompted to create a pull request from the branch you just updated. If not, click on “New pull request”, select `main` as the base branch and your feature branch as the compare branch, and then click “Create pull request”.
+8. Click on “New pull request”, then "compare across forks". Select `main` as the base branch, `FSHSchool/FSHOnline-Examples` as the base repository, your forked repository as the head repository, and your feature branch as the compare branch. Then, click “Create pull request”.
 9. Edit the title and description of the pull request, and then click “Create pull request”.
 
 ## Metadata Tags
