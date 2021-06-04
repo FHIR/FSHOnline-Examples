@@ -28,7 +28,7 @@ jobs:
     - run: git add --all
     - run: git commit -m "Automatic manifest update"
     - name: 
-      uses: ad-m/github-push-action@main
+      uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         force: true
