@@ -1,1 +1,1 @@
-// @@Name: Mapping Example
+// @Name: Mapping Example

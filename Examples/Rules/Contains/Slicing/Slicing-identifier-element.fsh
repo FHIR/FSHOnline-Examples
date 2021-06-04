@@ -1,5 +1,5 @@
-// @@Name: Slicing Identifier Element
-// @@Description: Slice the identifier to require an implementer to support lab results accession number, filler order number and placer order number
+// @Name: Slicing Identifier Element
+// @Description: Slice the identifier to require an implementer to support lab results accession number, filler order number and placer order number
 
 Profile: LaboratoryResultWithMultipleIdentfiers
 Parent: Observation

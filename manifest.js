@@ -16,11 +16,11 @@ async function getMetadata(filePath, fileName) {
 
   const parseLines = async () => {
     for await (const line of lineReader) {
-      if (line.includes('@@Name:')) {
-        const splitLine = line.split('@@Name: ');
+      if (line.includes('@Name:')) {
+        const splitLine = line.split('@Name: ');
         metaData.name = splitLine[1];
-      } else if (line.includes('@@Description')) {
-        const splitLine = line.split('@@Description: ');
+      } else if (line.includes('@Description')) {
+        const splitLine = line.split('@Description: ');
         metaData.description = splitLine[1];
       }
       if (Object.keys(metaData).length == 2) return;

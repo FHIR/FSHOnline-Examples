@@ -1,5 +1,5 @@
-// @@Name: Complex Extensions
-// @@Description: Examples of extensions with sub-extensions. Note that an extension cannot have BOTH a value and extensions.
+// @Name: Complex Extensions
+// @Description: Examples of extensions with sub-extensions. Note that an extension cannot have BOTH a value and extensions.
 
 Extension: RadiationDoseDelivered
 Id:        radiation-dose-delivered

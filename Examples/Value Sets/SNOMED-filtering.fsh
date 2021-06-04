@@ -1,5 +1,5 @@
-// @@Name: SNOMED Filtering
-// @@Description: Value set with includes and excludes
+// @Name: SNOMED Filtering
+// @Description: Value set with includes and excludes
 Alias: SCT = http://snomed.info/sct
 
 ValueSet: HandednessVS

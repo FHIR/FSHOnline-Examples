@@ -1,4 +1,4 @@
-// @@Name: Local Code Systems
+// @Name: Local Code Systems
 
 // Define a local code system
 CodeSystem: LymphNodeCS

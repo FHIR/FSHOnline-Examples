@@ -1,5 +1,5 @@
-// @@Name: LOINC Filtering
-// @@Description: Value set example filtering on LOINC Part (LP) codes
+// @Name: LOINC Filtering
+// @Description: Value set example filtering on LOINC Part (LP) codes
 Alias:  LNC = http://loinc.org
 
 ValueSet: PSATestVS

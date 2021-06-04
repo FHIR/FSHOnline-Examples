@@ -1,5 +1,5 @@
-// @@Name: Must Support Declarations
-// @@Description: Basic Must Support declarations
+// @Name: Must Support Declarations
+// @Description: Basic Must Support declarations
 
 // MS flags can be added in several different ways, as illustrated by the following examples
 

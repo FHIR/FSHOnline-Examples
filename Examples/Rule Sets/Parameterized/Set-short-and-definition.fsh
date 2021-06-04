@@ -1,5 +1,5 @@
-// @@Name: Set Short and Definition
-// @@Description: Rule set to set the short name and definition for any element
+// @Name: Set Short and Definition
+// @Description: Rule set to set the short name and definition for any element
 
 // The strings defined for short and definition should not be quoted, and any comma must be escaped with a backslash.
 RuleSet: ShortAndDefinition(path, short, definition)

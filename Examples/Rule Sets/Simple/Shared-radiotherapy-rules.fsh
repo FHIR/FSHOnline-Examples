@@ -1,5 +1,5 @@
-// @@Name: Shared Radiotherapy Rules
-// @@Description: Share a set of rules among multiple profiles
+// @Name: Shared Radiotherapy Rules
+// @Description: Share a set of rules among multiple profiles
 
 // Rules applied to all types of radiotherapy procedures
 RuleSet: RadiotherapyProcedureCommonRules

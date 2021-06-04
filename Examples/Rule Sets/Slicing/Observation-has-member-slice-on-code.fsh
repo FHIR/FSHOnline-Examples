@@ -1,5 +1,5 @@
-// @@Name: Observation hasMember Slice on Code
-// @@Description: RuleSet for Slicing Observation.hasMember on an element's value in the referenced resource
+// @Name: Observation hasMember Slice on Code
+// @Description: RuleSet for Slicing Observation.hasMember on an element's value in the referenced resource
 
 // Slice the hasMember element on the code element of the referenced resource. Use this pattern if the resources referenced by the hasMember array can be discriminated based on a single element's value, in this case Observation.code.
 RuleSet: ObservationHasMemberSliceOnCode

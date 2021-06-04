@@ -1,5 +1,5 @@
-// @@Name: Require Element OR
-// @@Description: Invariant requiring one or both of two elements to be present
+// @Name: Require Element OR
+// @Description: Invariant requiring one or both of two elements to be present
 
 Profile:  MedicationAdministrationWithReason
 Parent:   MedicationAdministration

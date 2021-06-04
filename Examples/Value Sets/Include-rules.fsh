@@ -1,5 +1,5 @@
-// @@Name: Include Rules
-// @@Description: Value set illustrating various include rules
+// @Name: Include Rules
+// @Description: Value set illustrating various include rules
 ValueSet: SurgicalProcedureVS
 Id: surgical-procedure-vs
 Title: "Surgical Procedure Value Set"

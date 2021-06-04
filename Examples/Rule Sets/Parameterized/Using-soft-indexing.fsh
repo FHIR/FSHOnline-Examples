@@ -1,5 +1,5 @@
-// @@Name: Using Soft Indexing
-// @@Description: Parameterized rule set using soft indexing
+// @Name: Using Soft Indexing
+// @Description: Parameterized rule set using soft indexing
 RuleSet: Name(first, last)
 * name[+].given = "{first}"
 * name[=].family = "{last}"

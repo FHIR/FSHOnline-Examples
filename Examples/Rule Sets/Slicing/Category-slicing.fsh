@@ -1,5 +1,5 @@
-// @@Name: Category Slicing
-// @@Description: Slice the category element so a certain category is required
+// @Name: Category Slicing
+// @Description: Slice the category element so a certain category is required
 
 RuleSet: CategorySlicingRules
 * category ^slicing.discriminator.type = #pattern

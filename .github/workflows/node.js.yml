@@ -1,17 +1,15 @@
-# This workflow will do a clean install of node dependencies and then build the index.json file 
+# This workflow will build the index.json file, then push the change to the main branch
 
 name: Build Action
 
 on:
   push:
     branches: [ main ]
-  pull_request:
-    branches: [ main ]
 
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
 
     strategy:
       matrix:
@@ -26,3 +24,12 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: npm ci
     - run: npm run build
+    - run: git config --local user.name  ${{ github.actor }}
+    - run: git add --all
+    - run: git commit -m "Automatic manifest update"
+    -name: 
+      uses: ad-m/github-push-action@main
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        force: true
+

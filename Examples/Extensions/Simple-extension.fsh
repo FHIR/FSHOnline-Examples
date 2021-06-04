@@ -1,5 +1,5 @@
-// @@Name: Simple Extensions
-// @@Description: Examples of extensions with values (no sub-extensions)
+// @Name: Simple Extensions
+// @Description: Examples of extensions with values (no sub-extensions)
 
 Extension: Laterality
 Description: "Body side of a body location."

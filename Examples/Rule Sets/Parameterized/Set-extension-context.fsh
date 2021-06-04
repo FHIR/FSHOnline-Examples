@@ -1,5 +1,5 @@
-// @@Name: Set Extension Context
-// @@Description: Specify which resources or elements an extension can be applied to
+// @Name: Set Extension Context
+// @Description: Specify which resources or elements an extension can be applied to
 
 // The path is either the name of a resource or path to an element (see examples below)
 RuleSet: ExtensionContext(path)

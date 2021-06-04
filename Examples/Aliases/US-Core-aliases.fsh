@@ -1,4 +1,4 @@
-// @@Name: US Core Aliases 
+// @Name: US Core Aliases 
 
 // Profiles
 Alias:   $USCoreCondition = http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition

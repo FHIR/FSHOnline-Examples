@@ -1,5 +1,5 @@
-// @@Name: Require Element XOR
-// @@Description: Invariant requiring one of two elements to be present (not both)
+// @Name: Require Element XOR
+// @Description: Invariant requiring one of two elements to be present (not both)
 
 Invariant:   exactly-one-reason-required
 Description: "Either reasonCode or reasonReference MUST be populated, but not both."

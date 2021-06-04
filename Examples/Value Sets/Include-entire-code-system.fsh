@@ -1,5 +1,5 @@
-// @@Name: Include Entire Code System
-// @@Description: Value set comprised of an entire code system
+// @Name: Include Entire Code System
+// @Description: Value set comprised of an entire code system
 ValueSet: SequenceVariantVS
 Id: hgvs-vs
 Title: "Human Genome Variation Society Sequence Variant Nomenclature Value Set"

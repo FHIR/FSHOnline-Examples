@@ -1,5 +1,5 @@
-// @@Name: Exclude Single Codes
-// @@Description: Value set with includes and excludes
+// @Name: Exclude Single Codes
+// @Description: Value set with includes and excludes
 Alias: SCT = http://snomed.info/sct
 
 ValueSet: HandednessVS

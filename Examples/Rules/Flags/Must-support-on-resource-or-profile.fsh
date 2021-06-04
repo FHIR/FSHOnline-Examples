@@ -1,5 +1,5 @@
-// @@Name: Must SUpport on Resource or Profile
-// @@Description: Put a MS flag on a profile (as opposed to an element in the profile)
+// @Name: Must Support on Resource or Profile
+// @Description: Put a MS flag on a profile (as opposed to an element in the profile)
 
 // Require the user to implement the Person resource
 Profile: MustImplementThisResource

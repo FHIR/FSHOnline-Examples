@@ -1,5 +1,5 @@
-// @@Name: Observation Component Slicing
-// @@Description: RuleSet for Slicing Observation.component
+// @Name: Observation Component Slicing
+// @Description: RuleSet for Slicing Observation.component
 
 // Slice the component element on the component.code element
 RuleSet: ObservationComponentSlicingRules
