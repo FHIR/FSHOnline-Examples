@@ -1,4 +1,5 @@
-//  Create Observation components easily using RuleSets
+// @Name: Create Observation Component
+// @Description: Create Observation components easily using RuleSets
 
 RuleSet: CreateComponent(sliceName, min, max, code, short, definition)
 * component contains {sliceName} {min}..{max} MS
