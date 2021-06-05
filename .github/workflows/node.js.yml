@@ -2,7 +2,10 @@
 
 name: Build Action
 
-on: [pull_request]
+on:
+  pull_request_target:
+    branches:
+      - main
 
 jobs:
   build:
@@ -32,6 +35,6 @@ jobs:
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{github.event.pull_request.head.ref}}
         force: true
-
 
