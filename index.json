@@ -1,5 +1,5 @@
 {
-	"timestamp": "2021-06-06T19:11:10+00:00",
+	"timestamp": "2021-06-06T20:13:39+00:00",
 	"children": [
 		{
 			"name": "Aliases",
@@ -118,32 +118,32 @@
 			"children": [
 				{
 					"path": "Paths/Array-element-paths.fsh",
-					"name": "Array-element-paths",
+					"name": "Array Element Paths",
 					"type": "file"
 				},
 				{
 					"path": "Paths/Caret-paths.fsh",
-					"name": "Caret-paths",
+					"name": "Caret Paths",
 					"type": "file"
 				},
 				{
 					"path": "Paths/Extension-paths.fsh",
-					"name": "Extension-paths",
+					"name": "Extension Paths",
 					"type": "file"
 				},
 				{
 					"path": "Paths/Reference-paths.fsh",
-					"name": "Reference-paths",
+					"name": "Reference Paths",
 					"type": "file"
 				},
 				{
 					"path": "Paths/Sliced-array-paths.fsh",
-					"name": "Sliced-array-paths",
+					"name": "Sliced Array Paths",
 					"type": "file"
 				},
 				{
 					"path": "Paths/Soft-indexing-paths.fsh",
-					"name": "Soft-indexing-paths",
+					"name": "Soft Indexing Paths",
 					"type": "file"
 				}
 			]
@@ -155,7 +155,7 @@
 			"children": [
 				{
 					"path": "Profiles/Profile-example.fsh",
-					"name": "Profile-example",
+					"name": "Profile Example",
 					"type": "file"
 				}
 			]
