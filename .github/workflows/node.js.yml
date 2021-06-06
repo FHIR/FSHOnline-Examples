@@ -29,7 +29,7 @@ jobs:
     - run: npm ci
     - run: npm run build
     - run: git config --local user.name  ${{ github.actor }}
-    - run: git add --all
+    - run: git add index.json
     - run: git commit -m "Automatic manifest update"
     - name: 
       uses: ad-m/github-push-action@master
