@@ -1,3 +1,7 @@
+// @Name:CapabilityStatement Rules
+// @Description: Rules to populate a CapabilityStatement
+
+
 Alias: $exp = http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation
 
 RuleSet: SupportResource (resource, expectation)
