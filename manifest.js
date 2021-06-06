@@ -17,11 +17,11 @@ async function getMetadata(filePath, fileName) {
   const parseLines = async () => {
     for await (const line of lineReader) {
       if (line.includes('@Name:')) {
-        const splitLine = line.split('@Name: ');
-        metaData.name = splitLine[1];
+        const splitLine = line.split('@Name:');
+        metaData.name = splitLine[1].trim();
       } else if (line.includes('@Description')) {
-        const splitLine = line.split('@Description: ');
-        metaData.description = splitLine[1];
+        const splitLine = line.split('@Description:');
+        metaData.description = splitLine[1].trim();
       }
       if (Object.keys(metaData).length == 2) return;
     }
@@ -76,7 +76,7 @@ async function getChildren(baseDirName) {
 async function generateManifest() {
   const examplesArr = await getChildren(path.join(__dirname, 'Examples'));
   let manifestObj = {timestamp: moment(Date.now()).format(), children: examplesArr };
-  fs.writeFileSync(manifestPath, JSON.stringify(manifestObj), 'utf-8');
+  fs.writeFileSync(manifestPath, JSON.stringify(manifestObj, null, "\t"), 'utf-8');
 }
 
 generateManifest();
