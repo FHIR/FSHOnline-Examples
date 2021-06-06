@@ -1,7 +1,7 @@
 # FSHOnline-Examples
 
 This repository contains a set of FHIR Shorthand examples that are displayed on [FSH Online](https://fshschool.org/FSHOnline/). 
-The goal of these examples is to demonstrate various aspects of FHIR Shorthand, ranging from basic examples to complex concepts. FSH authors are encouraged to submit their own unique examples to be used by the FSH community.
+The goal of these examples is to demonstrate various aspects of FHIR Shorthand, ranging from basic examples to complex concepts. FSH authors are encouraged to submit their own examples to be used by the FSH community. Each example should ideally demonstrate a feature of FSH that isn't covered by other examples.
 
 ## Example Submissions
 Examples should be submitted by way of pull requests on this repository. Submissions will then be reviewed and merged into the `main` branch. To create a pull request, follow the following steps:
