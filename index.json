@@ -1,5 +1,5 @@
 {
-	"timestamp": "2021-06-07T12:23:09+00:00",
+	"timestamp": "2021-06-07T12:30:14+00:00",
 	"children": [
 		{
 			"name": "Aliases",
@@ -16,6 +16,21 @@
 					"path": "Aliases/FHIR-aliases.fsh",
 					"name": "FHIR Aliases",
 					"description": "Code system defined by FHIR from terminology.hl7.org",
+					"type": "file"
+				},
+				{
+					"path": "Aliases/HL7-code-systems-V2-aliases.fsh",
+					"name": "HL7-code-systems-V2-aliases",
+					"type": "file"
+				},
+				{
+					"path": "Aliases/HL7-code-systems-V3-aliases.fsh",
+					"name": "HL7-code-systems-V3-aliases",
+					"type": "file"
+				},
+				{
+					"path": "Aliases/HL7-code-systems-other-aliases.fsh",
+					"name": "HL7-code-systems-other-aliases",
 					"type": "file"
 				},
 				{
