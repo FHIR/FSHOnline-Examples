@@ -1,5 +1,5 @@
 {
-	"timestamp": "2021-06-06T20:39:45+00:00",
+	"timestamp": "2021-06-15T11:28:43+00:00",
 	"children": [
 		{
 			"name": "Aliases",
@@ -16,6 +16,24 @@
 					"path": "Aliases/FHIR-aliases.fsh",
 					"name": "FHIR Aliases",
 					"description": "Code system defined by FHIR from terminology.hl7.org",
+					"type": "file"
+				},
+				{
+					"path": "Aliases/HL7-code-systems-V2-aliases.fsh",
+					"name": "HL7 V2 aliases",
+					"description": "Aliases for all V2 code systems defined at https://terminology.hl7.org/codesystems.html. Generated 2021-06-15 07:26:19 by https://github.com/FSHSchool/FSHOnline-Examples/tree/main/Scripts/Aliases/HL7.ipynb. Leading $ signs are optional but are useful for visually distinguishing aliases from other names.",
+					"type": "file"
+				},
+				{
+					"path": "Aliases/HL7-code-systems-V3-aliases.fsh",
+					"name": "HL7 V3 aliases",
+					"description": "Aliases for all V3 code systems defined at https://terminology.hl7.org/codesystems.html. Generated 2021-06-15 07:26:19 by https://github.com/FSHSchool/FSHOnline-Examples/tree/main/Scripts/Aliases/HL7.ipynb. Leading $ signs are optional but are useful for visually distinguishing aliases from other names.",
+					"type": "file"
+				},
+				{
+					"path": "Aliases/HL7-code-systems-other-aliases.fsh",
+					"name": "HL7 other aliases",
+					"description": "Aliases for all code systems defined at https://terminology.hl7.org/codesystems.html that are not part of V2 or V3. Generated 2021-06-15 07:26:19 by https://github.com/FSHSchool/FSHOnline-Examples/tree/main/Scripts/Aliases/HL7.ipynb. Leading $ signs are optional but are useful for visually distinguishing aliases from other names.",
 					"type": "file"
 				},
 				{
