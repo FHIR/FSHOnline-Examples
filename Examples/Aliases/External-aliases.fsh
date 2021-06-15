@@ -1,5 +1,5 @@
-// @Name: External Aliases
-// @Description: Common aliases based on package hl7.terminology#2.1.0 based on FHIR 4.0.1. Generated 2021-03-06. Leading $ signs are optional but are useful for visually distinguishing aliases from other names. Both versions are provided.
+// @Name: Selected External Code System Aliases (not complete)
+// @Description: Aliases for a subset of external code systems, based on package hl7.terminology#2.1.0 based on FHIR 4.0.1. Leading $ signs are optional but are useful for visually distinguishing aliases from other names.
 
 // External code systems with a canonical recognized by terminology.hl7.org
 Alias:   $LNC = http://loinc.org

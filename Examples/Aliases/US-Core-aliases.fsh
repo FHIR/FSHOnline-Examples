@@ -1,4 +1,5 @@
-// @Name: US Core Aliases 
+// @Name: Selected US Core Aliases
+// @Description: Aliases for a subset of US Core profiles and extensions. Leading $ signs are optional but are useful for visually distinguishing aliases from other names.
 
 // Profiles
 Alias:   $USCoreCondition = http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition
@@ -18,5 +19,3 @@ Alias:   $VitalSign = http://hl7.org/fhir/StructureDefinition/vitalsigns
 // Extensions
 Alias:   $USCoreBirthSex = http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex
 Alias:   $USCoreRace = http://hl7.org/fhir/us/core/StructureDefinition/us-core-race
-
-
