@@ -1,5 +1,6 @@
-// @Name: FHIR Aliases
-// @Description: Code system defined by FHIR from terminology.hl7.org
+// @Name: Selected FHIR Aliases (not complete)
+// @Description: Aliases for a subset of code systems defined by FHIR from terminology.hl7.org. Leading $ signs are optional but are useful for visually distinguishing aliases from other names.
+
 Alias:   $OmbRaceCat = urn:oid:2.16.840.1.113883.6.238
 Alias:   $IDTYPE = http://terminology.hl7.org/CodeSystem/v2-0203
 Alias:   $SPTY = http://terminology.hl7.org/CodeSystem/v2-0487
