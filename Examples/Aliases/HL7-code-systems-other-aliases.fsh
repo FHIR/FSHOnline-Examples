@@ -1,5 +1,5 @@
 // @Name: HL7 other aliases (complete)
-// @Description: Aliases for all code systems defined at https://terminology.hl7.org/codesystems.html that are not part of V2 or V3. Generated 2021-06-15 07:26:19 by https://github.com/FSHSchool/FSHOnline-Examples/tree/main/Scripts/Aliases/HL7.ipynb. Leading $ signs are optional but are useful for visually distinguishing aliases from other names.
+// @Description: Aliases for all code systems defined at https://terminology.hl7.org/codesystems.html that are not part of V2 or V3. Generated 2021-07-13 13:28:48 by https://github.com/FSHSchool/FSHOnline-Examples/tree/main/Scripts/Aliases/HL7.ipynb. Leading $ signs are optional but are useful for visually distinguishing aliases from other names.
 
 Alias:   $ACR                                            = http://terminology.hl7.org/CodeSystem/ACR                                            // American College of Radiology finding codes
 Alias:   $AS4                                            = http://terminology.hl7.org/CodeSystem/AS4                                            // ASTM E1238/ E1467 Universal

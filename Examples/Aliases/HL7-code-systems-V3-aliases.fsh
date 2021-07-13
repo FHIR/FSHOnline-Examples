@@ -1,5 +1,5 @@
 // @Name: HL7 V3 aliases (complete)
-// @Description: Aliases for all V3 code systems defined at https://terminology.hl7.org/codesystems.html. Generated 2021-06-15 07:26:19 by https://github.com/FSHSchool/FSHOnline-Examples/tree/main/Scripts/Aliases/HL7.ipynb. Leading $ signs are optional but are useful for visually distinguishing aliases from other names.
+// @Description: Aliases for all V3 code systems defined at https://terminology.hl7.org/codesystems.html. Generated 2021-07-13 13:28:48 by https://github.com/FSHSchool/FSHOnline-Examples/tree/main/Scripts/Aliases/HL7.ipynb. Leading $ signs are optional but are useful for visually distinguishing aliases from other names.
 
 Alias:   $v3-AcknowledgementCondition            = http://terminology.hl7.org/CodeSystem/v3-AcknowledgementCondition              // AcknowledgementCondition
 Alias:   $v3-AcknowledgementDetailCode           = http://terminology.hl7.org/CodeSystem/v3-AcknowledgementDetailCode             // AcknowledgementDetailCode
