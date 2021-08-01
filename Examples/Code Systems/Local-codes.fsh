@@ -9,19 +9,19 @@ Description: "Lymph node terms that could not be found in standard sources such 
 * ^url =  http://terminology.hl7.org/CodeSystem/lymphnodes
 // Spacing layout over three lines per term is optional, for clarity
 // The definition (second text string) is optional
-* #LN_AX_L1  
+* #LN_AX_L1
     "Level 1 Axillary Lymph Nodes"
     "Level 1 is the bottom level, below the lower edge of the pectoralis minor muscle."
-* #LN_Ax_L2  
+* #LN_Ax_L2
     "Level 2 Axillary Lymph Nodes"
     "Level II is lying underneath the pectoralis minor muscle."
-* #LN_Ax_L3  
+* #LN_Ax_L3
     "Level 3 Axillary Lymph Nodes"
     "Level III is above the pectoralis minor muscle."
-* #LN_Neck_IA  
+* #LN_Neck_IA
     "Level IA (Submental) neck node"
     "Lymph nodes within the triangular boundary of the anterior belly of the digastric muscles and the hyoid bone"
-* #LN_Neck_IB  
+* #LN_Neck_IB
     "Level IB (Submandibular) neck node"
     "Lymph nodes within the boundaries of the anterior and posterior bellies of the digastric muscles, the stylohyoid muscle, and the body of the mandible"
 // truncated (you get the idea)
@@ -32,6 +32,10 @@ InstanceOf: BodyStructure
 * patient = Reference(adam-everyman)
 * location = LymphNodeCS#LN_Neck_IA "Level IA (Submental) neck node"
 * morphology = http://snomed.info/sct#40225001 "Cystic lymphangioma (morphologic abnormality)"
+
+// Note that BodyStruture.patient has a cardinality of 1..1, so it must be included
+// (https://www.hl7.org/fhir/bodystructure.html). The resource below allows us to meet this
+// conformance requirement.
 
 Instance: adam-everyman
 InstanceOf: Patient
