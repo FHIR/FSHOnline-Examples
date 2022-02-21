@@ -5,14 +5,14 @@ Instance: PatientExample
 InstanceOf: Patient
 Description: "Example of Patient"
 * name.family = "Anyperson"
-* name.given[0] = "John"
-* name.given[1] = "B."
+* name.given[+] = "John"
+* name.given[+] = "B."
 
-* contact.telecom[0].system = #phone
-* contact.telecom[0].value = "555-555-5555"
-* contact.telecom[0].use = #home
-* contact.telecom[1].system = #email
-* contact.telecom[1].value = "john.anyperson@example.com"
+* contact.telecom[+].system = #phone
+* contact.telecom[=].value = "555-555-5555"
+* contact.telecom[=].use = #home
+* contact.telecom[+].system = #email
+* contact.telecom[=].value = "john.anyperson@example.com"
 
 * gender = #male
 
