@@ -1,5 +1,5 @@
 {
-	"timestamp": "2021-09-25T22:24:01+00:00",
+	"timestamp": "2022-04-07T15:57:45+00:00",
 	"children": [
 		{
 			"name": "Aliases",
@@ -83,6 +83,7 @@
 				{
 					"path": "Instances/Instance-example.fsh",
 					"name": "Instance Example",
+					"description": "An example of an instance of a Patient resource",
 					"type": "file"
 				}
 			]
@@ -173,8 +174,21 @@
 			"type": "category",
 			"children": [
 				{
+					"path": "Profiles/Abstract-profile.fsh",
+					"name": "Abstract Profile",
+					"description": "Abstract profiles can be used to define common constraints used by multiple child profiles. The term \"abstract\" means that implementers would not create resources conforming to the abstract profile -- instead, they would target conforming to one of non-abstract child profiles. See \"Shared Properties with Rule Sets\" for an alternate approach to this.",
+					"type": "file"
+				},
+				{
 					"path": "Profiles/Profile-example.fsh",
-					"name": "Profile Example",
+					"name": "Profile",
+					"description": "Example of a profile of the Patient resource. This example includes a few of the most commonly used constraints and documentation features of FHIR profiles.",
+					"type": "file"
+				},
+				{
+					"path": "Profiles/Shared-properties-with-rule-sets.fsh",
+					"name": "Shared Properties with Rule Sets",
+					"description": "This is an alternative approach to using abstract profiles to define constraints that are common to multiple profiles using a FHIR Shorthand feature called \"Rule Sets\" (https://build.fhir.org/ig/HL7/fhir-shorthand/reference.html#defining-rule-sets). See the \"Abstract Profile\" example for more information on abstract profiles.",
 					"type": "file"
 				}
 			]
