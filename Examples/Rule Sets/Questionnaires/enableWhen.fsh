@@ -1,16 +1,9 @@
 // this question will only be shown when another question has been answered as 'true'
-RuleSet: enableWhenTrue(question)
+RuleSet: enableWhenCode(question, code)
 * enableWhen
   * question = "{question}"
   * operator = #=
-  * answerBoolean = true
-
-// this question will only be shown if of another question (comorbidities) has been answered in a certain way
-RuleSet: enableWhenComorbidityyy(code)
-* enableWhen
-  * question = "comorbidities"
-  * operator = #=
-  * answerCoding = {code}
+  * answerBoolean = {code}
 
 ValueSet: ComorbidityHistory
 Id: ComorbidityHistory
@@ -46,7 +39,7 @@ Description: "Test Questionnaire to demonstrate enableWhen"
     * type = #integer
     * text = "So how old are you?"
     * required = true
-    * insert enableWhenTrue(age-known)
+    * insert enableWhenCode(age-known, true)
 
   * item[+]
     * linkId = "comorbidities"
@@ -60,4 +53,4 @@ Description: "Test Questionnaire to demonstrate enableWhen"
     * linkId = "depression-treatment"
     * type = #boolean
     * text = "Do you receive treatment for depression?"
-    * insert enableWhenComorbidityyy(SCT#35489007)
+    * insert enableWhenCode(comorbidities, SCT#35489007)
