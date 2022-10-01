@@ -5,6 +5,9 @@ RuleSet: enableWhenCode(question, code)
   * operator = #=
   * answerBoolean = {code}
 
+RuleSet: enableWhenComorbidity(code)
+* insert enableWhenCode(comorbidities, {code})
+
 ValueSet: ComorbidityHistory
 Id: ComorbidityHistory
 Title: "Comorbidity history"
@@ -53,4 +56,4 @@ Description: "Test Questionnaire to demonstrate enableWhen"
     * linkId = "depression-treatment"
     * type = #boolean
     * text = "Do you receive treatment for depression?"
-    * insert enableWhenCode(comorbidities, SCT#35489007)
+    * insert enableWhenComorbidity(SCT#35489007)
