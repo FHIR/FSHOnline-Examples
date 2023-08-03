@@ -1,5 +1,5 @@
 // @Name: Contained Instance Example
-// @Description: An example of an instance that contains another instance
+// @Description: An example of an instance that contains another instance which references its container
 
 Alias: $SCT = http://snomed.info/sct
 
