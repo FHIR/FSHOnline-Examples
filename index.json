@@ -85,7 +85,13 @@
 					"name": "Instance Example",
 					"description": "An example of an instance of a Patient resource",
 					"type": "file"
-				}
+				},
+				{
+					"path": "Instances/Instance-contained-example.fsh",
+					"name": "Contained Instance Example",
+					"description": "An example of an instance that contains another instance",
+					"type": "file"
+				},
 			]
 		},
 		{
