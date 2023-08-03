@@ -91,7 +91,7 @@
 					"name": "Contained Instance Example",
 					"description": "An example of an instance that contains another instance which references its container",
 					"type": "file"
-				},
+				}
 			]
 		},
 		{
