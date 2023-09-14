@@ -5,7 +5,7 @@ Profile:     ExampleAbstractPatientProfile
 Id:          example-abstract-patient-profile
 Parent:      Patient
 Title:       "Example Abstract Patient Profile"
-Description: "Example of an abstract profile of Patient"m
+Description: "Example of an abstract profile of Patient"
 * ^abstract = true // For more information see http://www.hl7.org/fhir/structuredefinition-definitions.html#StructureDefinition.abstract
 * name 1..* // Require at least one value inside the `name` element
 * name and name.given and name.family MS // Mark elements as MustSupport
