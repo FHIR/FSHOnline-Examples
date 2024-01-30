@@ -7,7 +7,7 @@ Logical: AnimalAbilities
 * hasLungs 0..1 boolean "Does the animal have lungs?"
 * canSwim 0..1 boolean "Can the animal swim?"
 
-// A Logical can be used in place of a "complex datatypes"
+// A Logical can be used in place of a "complex datatype"
 Logical: Animal
 * name 1..1 string "The animal's name"
 * age 0..1 decimal "The animal's age in years"
@@ -18,15 +18,15 @@ Logical: Pet
 Parent: Animal
 * isVaccinated 0..1 boolean "Is the pet vaccinated?"
 
-// A Logical can be like a Resource, but you have to Add an id-field and the 
-// #can-be-target characteristic, so that References work.
+// A Logical can be like a Resource, but you have to add an id element and the 
+// #can-be-target Characteristic, so that References work.
 Logical: PetAsResourceLikeObject
 Parent: Animal
 Characteristics: #can-be-target
 * id 0..1 string "The id"
 * isVaccinated 0..1 boolean "Is the pet vaccinated?"
 
-// Exaple of Reference from one Logical to another
+// Example of Reference from one Logical to another
 Logical: Aquarium
 * members 0..* Reference(PetAsResourceLikeObject) "The pets inside the aquarium"
 
