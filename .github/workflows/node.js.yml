@@ -9,14 +9,12 @@ on:
 
 jobs:
   build:
-
+    name: Rebuild Manifest
     runs-on: ubuntu-latest
-
     strategy:
       matrix:
         node-version: [18.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
-
     steps:
     - uses: actions/checkout@v4
       with:
@@ -31,7 +29,7 @@ jobs:
     - run: git config --local user.name  ${{ github.actor }}
     - run: git add index.json
     - run: git commit -m "Automatic manifest update"
-    - name:
+    - name: Push to GitHub
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
