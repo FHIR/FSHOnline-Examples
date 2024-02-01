@@ -13,7 +13,7 @@ Logical: Animal
 * age 0..1 decimal "The animal's age in years"
 * traits 1..1 AnimalAbilities "The animal's abilities"
 
-// A Logical can be a Parent (Inheritance)
+// A Logical can be a Parent (inheritance)
 Logical: Pet
 Parent: Animal
 * isVaccinated 0..1 boolean "Is the pet vaccinated?"
@@ -37,13 +37,13 @@ InstanceOf: PetAsResourceLikeObject
 * age = 2
 * traits.canSwim = true
 
-Instance: ExamplePetClair
+Instance: ExamplePetClaire
 InstanceOf: PetAsResourceLikeObject
-* name = "Clair"
+* name = "Claire"
 * age = 3
 * traits.canSwim = false
 
 Instance: ExampleAquarium
 InstanceOf: Aquarium
 * members[0] = Reference(ExamplePetPhil)
-* members[1] = Reference(ExamplePetClair)
+* members[1] = Reference(ExamplePetClaire)
