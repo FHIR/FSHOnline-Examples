@@ -50,7 +50,7 @@ async function getChildren(relativeDir = '') {
     if (file.endsWith('fsh')) {
       const metaData = await getMetadata(fullFilePath, file);
       workingArray.push({
-        path: encodeURI(relativeFilePath),
+        path: encodeURI(relativeFilePath.split(path.sep).join('/')),
         ...metaData,
         type: 'file'
       });
@@ -59,7 +59,7 @@ async function getChildren(relativeDir = '') {
       if (children.length) {
         workingArray.push({
           name: file,
-          path: encodeURI(relativeFilePath),
+          path: encodeURI(relativeFilePath.split(path.sep).join('/')),
           type: 'category',
           children
         });
