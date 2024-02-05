@@ -40,7 +40,7 @@ async function getChildren(relativeDir = '') {
   let workingArray = [];
 
   // First we'll take in all files in the provided directory
-  const files = fs.readdirSync(path.join(baseExamplesPath, relativeDir));
+  const files = fs.readdirSync(path.join(baseExamplesPath, relativeDir)).sort();
 
   for (const file of files) {
     const relativeFilePath = path.join(relativeDir, file);
