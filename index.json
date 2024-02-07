@@ -1,5 +1,5 @@
 {
-	"timestamp": "2023-09-14T18:17:01+00:00",
+	"timestamp": "2024-02-07T14:11:35-05:00",
 	"children": [
 		{
 			"name": "Aliases",
@@ -121,6 +121,19 @@
 					"path": "Invariants/String-length-invariant.fsh",
 					"name": "String Length Invariant",
 					"description": "Limit string length invariant",
+					"type": "file"
+				}
+			]
+		},
+		{
+			"name": "Logicals",
+			"path": "Logicals",
+			"type": "category",
+			"children": [
+				{
+					"path": "Logicals/logical-example.fsh",
+					"name": "Logical Example",
+					"description": "An example of Logical resources and how to use them",
 					"type": "file"
 				}
 			]

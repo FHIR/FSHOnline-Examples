@@ -9,21 +9,19 @@ on:
 
 jobs:
   build:
-
-    runs-on: macos-latest
-
+    name: Rebuild Manifest
+    runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [12.x]
+        node-version: [18.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
-
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
       with:
         ref: ${{github.event.pull_request.head.ref}}
         repository: ${{github.event.pull_request.head.repo.full_name}}
     - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v2
+      uses: actions/setup-node@v4
       with:
         node-version: ${{ matrix.node-version }}
     - run: npm ci
@@ -31,7 +29,7 @@ jobs:
     - run: git config --local user.name  ${{ github.actor }}
     - run: git add index.json
     - run: git commit -m "Automatic manifest update"
-    - name: 
+    - name: Push to GitHub
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
