@@ -1,5 +1,5 @@
 {
-	"timestamp": "2024-02-07T14:11:35-05:00",
+	"timestamp": "2024-02-07T19:27:55+00:00",
 	"children": [
 		{
 			"name": "Aliases",
@@ -208,6 +208,12 @@
 					"path": "Profiles/Shared-properties-with-rule-sets.fsh",
 					"name": "Shared Properties with Rule Sets",
 					"description": "This is an alternative approach to using abstract profiles to define constraints that are common to multiple profiles using a FHIR Shorthand feature called \"Rule Sets\" (https://build.fhir.org/ig/HL7/fhir-shorthand/reference.html#defining-rule-sets). See the \"Abstract Profile\" example for more information on abstract profiles.",
+					"type": "file"
+				},
+				{
+					"path": "Profiles/Test-GitHub-Action.fsh",
+					"name": "Test GitHub Actions",
+					"description": "A new example just to test if GitHub actions are working right",
 					"type": "file"
 				}
 			]
