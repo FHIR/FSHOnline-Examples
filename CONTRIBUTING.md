@@ -49,6 +49,8 @@ This reduces the likelihood of duplicated effort and also provides the maintaine
 
 Code that is contributed to this project should be done in a personal fork of this repository and follow the coding practices specified in our Best Practices documentation (coming soon!).
 
+If you are planning to add to the set of FSH Examples, the [README](README.md#example-submissions) provides step by step instructions for how to create a fork for your work, where to add the FSH for your example, and how to create a pull request.
+
 ### Before Submitting a Pull Request
 
 Before submitting a Pull Request for a code contribution:
