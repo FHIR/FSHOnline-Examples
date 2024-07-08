@@ -3,6 +3,15 @@
 This repository contains a set of FHIR Shorthand examples that are displayed on [FSH Online](https://fshschool.org/FSHOnline/). 
 The goal of these examples is to demonstrate various aspects of FHIR Shorthand, ranging from basic examples to complex concepts. FSH authors are encouraged to submit their own examples to be used by the FSH community. Each example should ideally demonstrate a feature of FSH that isn't covered by other examples.
 
+## FHIR Foundation Project Statement
+
+- Maintainers: This project is maintained by The MITRE Corporation.
+- Issues / Discussion: For FHIR Shorthand examples issues, such as bug reports, comments, suggestions, questions, and feature requests, visit [FHIR Shorthand examples GitHub Issues](https://github.com/FSHSchool/FSHOnline-Examples/issues). For discussion of FHIR Shorthand and its associated projects, visit the FHIR Community Chat @ https://chat.fhir.org. The [#shorthand stream](https://chat.fhir.org/#narrow/stream/215610-shorthand) is used for all FHIR Shorthand questions and discussion.
+- License: All contributions to this project will be released under the Apache 2.0 License, and a copy of this license can be found in [LICENSE](LICENSE).
+- Contribution Policy: The FHIR Shorthand examples Contribution Policy can be found in [CONTRIBUTING.md](CONTRIBUTING.md).
+- Security Information: The FHIR Shorthand examples Security Information can be found in [SECURITY.md](SECURITY.md).
+- Compliance Information: N/A.
+
 ## Example Submissions
 Examples should be submitted by way of pull requests on this repository. Submissions will then be reviewed and merged into the `main` branch. To create a pull request, follow the following steps:
 
