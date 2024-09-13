@@ -1,7 +1,7 @@
 {
   "name": "FSHOnline-Examples",
   "version": "1.0.0",
-  "description": "This repository contains a set of FHIR Shorthand examples that are displayed on [FSH Online](https://fshschool.org/FSHOnline/).  The goal of these examples is to demonstrate how to do things in FSH.",
+  "description": "This repository contains a set of FHIR Shorthand examples that are displayed on [FSH Online](https://fshonline.fshschool.org/).  The goal of these examples is to demonstrate how to do things in FSH.",
   "main": "index.js",
   "scripts": {
     "build": "node manifest.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FSHSchool/FSHOnline-Examples.git"
+    "url": "git+https://github.com/FHIR/FSHOnline-Examples.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/FSHSchool/FSHOnline-Examples/issues"
+    "url": "https://github.com/FHIR/FSHOnline-Examples/issues"
   },
-  "homepage": "https://github.com/FSHSchool/FSHOnline-Examples#readme",
+  "homepage": "https://github.com/FHIR/FSHOnline-Examples#readme",
   "dependencies": {
     "moment": "^2.29.1"
   }
