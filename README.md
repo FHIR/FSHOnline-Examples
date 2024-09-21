@@ -1,12 +1,12 @@
 # FSHOnline-Examples
 
-This repository contains a set of FHIR Shorthand examples that are displayed on [FSH Online](https://fshschool.org/FSHOnline/). 
+This repository contains a set of FHIR Shorthand examples that are displayed on [FSH Online](https://fshonline.fshschool.org/). 
 The goal of these examples is to demonstrate various aspects of FHIR Shorthand, ranging from basic examples to complex concepts. FSH authors are encouraged to submit their own examples to be used by the FSH community. Each example should ideally demonstrate a feature of FSH that isn't covered by other examples.
 
 ## FHIR Foundation Project Statement
 
 - Maintainers: This project is maintained by the HL7 community.
-- Issues / Discussion: For FHIR Shorthand examples issues, such as bug reports, comments, suggestions, questions, and feature requests, visit [FHIR Shorthand examples GitHub Issues](https://github.com/FSHSchool/FSHOnline-Examples/issues). For discussion of FHIR Shorthand and its associated projects, visit the FHIR Community Chat @ https://chat.fhir.org. The [#shorthand stream](https://chat.fhir.org/#narrow/stream/215610-shorthand) is used for all FHIR Shorthand questions and discussion.
+- Issues / Discussion: For FHIR Shorthand examples issues, such as bug reports, comments, suggestions, questions, and feature requests, visit [FHIR Shorthand examples GitHub Issues](https://github.com/FHIR/FSHOnline-Examples/issues). For discussion of FHIR Shorthand and its associated projects, visit the FHIR Community Chat @ https://chat.fhir.org. The [#shorthand stream](https://chat.fhir.org/#narrow/stream/215610-shorthand) is used for all FHIR Shorthand questions and discussion.
 - License: All contributions to this project will be released under the Apache 2.0 License, and a copy of this license can be found in [LICENSE](LICENSE).
 - Contribution Policy: The FHIR Shorthand examples Contribution Policy can be found in [CONTRIBUTING.md](CONTRIBUTING.md).
 - Security Information: The FHIR Shorthand examples Security Information can be found in [SECURITY.md](SECURITY.md).
@@ -22,7 +22,7 @@ Examples should be submitted by way of pull requests on this repository. Submiss
 5. After completing all changes, stage and commit your work.
 6. Push your commit to Github with the following command: `git push —set-upstream origin <your-branch-name>`
 7. Navigate to the FSHOnline-Examples repository on Github and then click on “Pull requests”.
-8. Click on “New pull request”, then "compare across forks". Select `main` as the base branch, `FSHSchool/FSHOnline-Examples` as the base repository, your forked repository as the head repository, and your feature branch as the compare branch. Then, click “Create pull request”.
+8. Click on “New pull request”, then "compare across forks". Select `main` as the base branch, `FHIR/FSHOnline-Examples` as the base repository, your forked repository as the head repository, and your feature branch as the compare branch. Then, click “Create pull request”.
 9. Edit the title and description of the pull request, and then click “Create pull request”.
 
 ## Metadata Tags

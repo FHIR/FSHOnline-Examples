@@ -1,5 +1,5 @@
 {
-	"timestamp": "2024-09-12T13:47:15+00:00",
+	"timestamp": "2024-09-13T13:51:16+00:00",
 	"children": [
 		{
 			"name": "Aliases",
@@ -21,19 +21,19 @@
 				{
 					"path": "Aliases/HL7-code-systems-V2-aliases.fsh",
 					"name": "HL7 V2 aliases (complete)",
-					"description": "Aliases for all V2 code systems defined at https://terminology.hl7.org/codesystems.html. Generated 2021-07-13 13:28:48 by https://github.com/FSHSchool/FSHOnline-Examples/tree/main/Scripts/Aliases/HL7.ipynb. Leading $ signs are optional but are useful for visually distinguishing aliases from other names.",
+					"description": "Aliases for all V2 code systems defined at https://terminology.hl7.org/codesystems.html. Generated 2021-07-13 13:28:48 by https://github.com/FHIR/FSHOnline-Examples/tree/main/Scripts/Aliases/HL7.ipynb. Leading $ signs are optional but are useful for visually distinguishing aliases from other names.",
 					"type": "file"
 				},
 				{
 					"path": "Aliases/HL7-code-systems-V3-aliases.fsh",
 					"name": "HL7 V3 aliases (complete)",
-					"description": "Aliases for all V3 code systems defined at https://terminology.hl7.org/codesystems.html. Generated 2021-07-13 13:28:48 by https://github.com/FSHSchool/FSHOnline-Examples/tree/main/Scripts/Aliases/HL7.ipynb. Leading $ signs are optional but are useful for visually distinguishing aliases from other names.",
+					"description": "Aliases for all V3 code systems defined at https://terminology.hl7.org/codesystems.html. Generated 2021-07-13 13:28:48 by https://github.com/FHIR/FSHOnline-Examples/tree/main/Scripts/Aliases/HL7.ipynb. Leading $ signs are optional but are useful for visually distinguishing aliases from other names.",
 					"type": "file"
 				},
 				{
 					"path": "Aliases/HL7-code-systems-other-aliases.fsh",
 					"name": "HL7 other aliases (complete)",
-					"description": "Aliases for all code systems defined at https://terminology.hl7.org/codesystems.html that are not part of V2 or V3. Generated 2021-07-13 13:28:48 by https://github.com/FSHSchool/FSHOnline-Examples/tree/main/Scripts/Aliases/HL7.ipynb. Leading $ signs are optional but are useful for visually distinguishing aliases from other names.",
+					"description": "Aliases for all code systems defined at https://terminology.hl7.org/codesystems.html that are not part of V2 or V3. Generated 2021-07-13 13:28:48 by https://github.com/FHIR/FSHOnline-Examples/tree/main/Scripts/Aliases/HL7.ipynb. Leading $ signs are optional but are useful for visually distinguishing aliases from other names.",
 					"type": "file"
 				},
 				{
